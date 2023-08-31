@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #333B1E;
+    background-color: #ada2d3;
     font-family: 'Barlow', sans-serif;
 }
 main{
@@ -53,7 +53,7 @@ h2{
 }
 .container-cafe-manha-titulo h3, .container-almoco-titulo h3{
     font-size: 32px;
-    color: #EBC181;
+    color: #33318f;
     text-align: center;
     margin: 15px 0px 5px;
 }
@@ -69,7 +69,7 @@ h2{
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    border: solid #EBC181 2px;
+    border: solid #33318f 2px;
     overflow: hidden;
     margin: 10px;
     width: 300px;
@@ -88,7 +88,7 @@ h2{
 }
 
 .container-produto p:nth-child(4){
-    color: #9B8357;
+    color: #b7b6e6;
     font-size: 18px;
     font-weight: 600;
 }

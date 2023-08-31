@@ -20,40 +20,16 @@
 <main>
     <section class="container-admin-banner">
         <img src="img/logo-serenatto-horizontal.png" class="logo-admin" alt="logo-serenatto">
-        <h1>Cadastro de Usuários</h1>
+        <h1>Produto cadastrado com sucesso</h1>
         <img class= "ornaments" src="img/ornaments-coffee.png" alt="ornaments">
     </section>
     <section class="container-form">
-        <form method="post" action="processar-cadastro.php">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" 
-            placeholder="Digite seu nome" required>
-            
-            <label for="email">e-mail</label>
-            <input type="email" id="email" name="email" 
-            placeholder="Digite seu email" required>
-
-            <label for="senha">Senha</label>
-            <input type="password" id="senha" name="senha" 
-            placeholder="Digite uma senha" required>
-           
-            <label for="confirmarsenha">Confirmar Senha</label>
-            <input type="password" id="confirmarsenha" name="confirmarsenha" 
-            placeholder="Digite uma senha" required>
-        <?php 
-            if(isset($_GET["erro"])){
-                //echo "erro! senha e confirmar senha não são iguais";
-            ?>
-                <label for="erro">Senha e confirmar senha não são iguais</label>
-            <?php } ?>
-
-            <input type="submit" name="cadastro" class="botao-cadastrar" 
-            value="Cadastrar usuario"/>
+        <form action="login.php" method="post">                      
+            <input type="submit" name="login" 
+            class="botao-cadastrar" value="login"/>
         </form>
-        
 
     </section>
 </main>
 </body>
 </html>
-

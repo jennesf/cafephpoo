@@ -25,12 +25,12 @@ table{
     margin: auto 0;
 }
 table, th, td{
-    border: 1px solid #EBC181;
+    border: 1px solid #6e5fa3;
 }
 
 table th{
     padding: 11px 0 11px;
-    background-color: #EBC181;
+    background-color: #6e5fa3;
     color: #333B1E;
     font-weight: bold;
     font-size: 18px;
@@ -50,7 +50,7 @@ table td{
 .container-admin-banner h1{
     margin-top: 40px;
     font-size: 30px;
-    color: #EBC181;
+    color: #6e5fa3;
 }
 
 .container-lista-produtos{
@@ -66,7 +66,7 @@ table td{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid #EBC181 0.5px;
+    border: solid #6e5fa3 0.5px;
     border-radius: 10px;
     padding: 10px;
     margin: 3px 0;
@@ -96,7 +96,7 @@ table tbody tr td a:hover, .botao-cadastrar:hover, .botao-excluir:hover{
 }
 
 .botao-cadastrar{
-    background: #EBC181;
+    background: #6e5fa3;
     color: #333B1E;
     font-weight: 600;
     margin-top: 20px;
@@ -108,7 +108,7 @@ table tbody tr td a:hover, .botao-cadastrar:hover, .botao-excluir:hover{
 
 
 .botao-editar{
-    background: #9B8357;
+    background: #6e5fa3;
 }
 
 .botao-excluir{

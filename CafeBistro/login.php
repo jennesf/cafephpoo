@@ -45,7 +45,7 @@
     </section>
     <!--<section class="container-form">-->
     <div class="form-container">
-      <form method="post" action = "processar-login.php">
+      <form method="post" action="processar-login.php">
 
         <label for="email">E-mail</label>
         <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" required>
@@ -54,7 +54,9 @@
         <input type="password" id="senha" name="senha" placeholder="Digite a sua senha" required>
 
         <input type="submit" class="botao-cadastrar" name="entrar" value="Entrar" />
-
+        <?php if (isset($_GET["erro"])){ ?>
+          <label for="senha">Usuário ou senha inválidos</label>
+        <?php }?>
       </form>
     </div>
     <div class="form-container">

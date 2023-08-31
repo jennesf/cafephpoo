@@ -20,7 +20,7 @@ form{
 }
 
 form label{
-    color: #EBC181;
+    color: #6e5fa3;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -33,7 +33,6 @@ form input{
 }
 
 form input[type='file']{
-
     color: #FFFFFF;
 }
 
@@ -45,7 +44,6 @@ form input::file-selector-button{
 
 
 form input:focus{
-    border: 3px solid #EBC181;
+    border: 3px solid #6e5fa3;
     outline: none;
 }
-
